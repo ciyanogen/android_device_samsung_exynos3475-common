@@ -1,2 +1,1 @@
-Device configuration for the Samsung Galaxy J2 (j2lte)
-WIP for now
+Common Device Configuration for Samsung Exynos3475 Devices

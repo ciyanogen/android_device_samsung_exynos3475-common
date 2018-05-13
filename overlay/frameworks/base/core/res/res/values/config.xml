@@ -242,7 +242,7 @@
          Note: This is declared in both values/config.xml and values-sw600dp/config.xml.
                It is actually the latter definition that wins but overlay both
                to be on the safe side.
- -->
+    -->
     <bool name="config_enableLockScreenRotation">false</bool>
 
     <!-- If true, the screen can be rotated via the accelerometer in all 4
@@ -260,17 +260,17 @@
     <!-- Enable blur support -->
     <bool name="config_uiBlurEnabled">true</bool>
 
-<!-- Indicate whether the SD card is accessible without removing the battery. -->
+    <!-- Indicate whether the SD card is accessible without removing the battery. -->
     <bool name="config_batterySdCardAccessibility">true</bool>
 
     <!-- Whether UI for multi user should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
 
-<!-- Indicate whether closing the lid causes the device to go to sleep and opening
+    <!-- Indicate whether closing the lid causes the device to go to sleep and opening
       it causes the device to wake up.
       The default is false. -->
     <bool name="config_lidControlsSleep">true</bool>
 
-<!-- Maximum number of supported users -->
+    <!-- Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">4</integer>
 </resources>
