@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter j1lte j2lte j3lte o5prolte on5ltetmo gteswifi, gtesltetmo, , $(TARGET_DEVICE)),)
+ifneq ($(filter j1xlte j2lte j3lte o5prolte on5ltetmo gteswifi, gtesltetmo, , $(TARGET_DEVICE)),)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
